@@ -10,7 +10,7 @@ const Home = () => {
 	return (
 		<div>
             <h1>
-                aho
+                もうパチンコしない　2024/11／24
             </h1>
         </div>
 	);
