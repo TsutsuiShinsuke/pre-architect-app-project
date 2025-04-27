@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import localFont from "next/font/local";
-import Home from "@/components/Home/Home";
+import Top from "@/components/Home/Top";
 
 /*
 const geistSans = localFont({
@@ -15,8 +15,8 @@ const geistMono = localFont({
   weight: "100 900",
 });
 */
-export default function HomePage() {
+export default function TopPage() {
   return (
-        <Home />
+        <Top />
     );
 }
