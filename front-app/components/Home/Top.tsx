@@ -1,6 +1,7 @@
 import React, { useEffect, useState, Fragment } from 'react';
+import Link from 'next/link';
 
-const Home = () => {
+const Top = () => {
 
 	// わざわざ外側でLoadDataって別関数として定義してるのは、UseEffect内以外からも呼び出したいからだよ～
 	useEffect(() => {
@@ -11,11 +12,14 @@ const Home = () => {
 		<div>
             <h1>
                 もうパチンコしない　2024/11／24
-								11/29 競艇は楽しい，川井萌は強かわいい
-								hっっっっっっっっっつい
+				今日から開発再開　2025/04/05
+				再開発　2025/04/27
             </h1>
+			<Link href="/login">
+        ここ
+      </Link>
         </div>
 	);
 };
 
-export default Home;
+export default Top;
