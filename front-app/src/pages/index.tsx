@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import localFont from "next/font/local";
-import Top from "@/components/Home/Top";
+import Top from "@/src/components/Top";
 
 /*
 const geistSans = localFont({
